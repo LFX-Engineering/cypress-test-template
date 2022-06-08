@@ -1,0 +1,53 @@
+{
+  "name": "cypress-testing-template",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "lint": "eslint --ext .js,.ts,.html --fix src",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "prepack": "npx husky install",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --browser chrome"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^14.0.1",
+    "@angular/common": "^14.0.1",
+    "@angular/compiler": "^14.0.1",
+    "@angular/core": "^14.0.1",
+    "@angular/forms": "^14.0.1",
+    "@angular/platform-browser": "^14.0.1",
+    "@angular/platform-browser-dynamic": "^14.0.1",
+    "@angular/router": "^14.0.1",
+    "@tailwindcss/forms": "^0.5.2",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^14.0.0",
+    "@angular-eslint/eslint-plugin": "^13.2.1",
+    "@angular-eslint/eslint-plugin-template": "^13.2.1",
+    "@angular-eslint/template-parser": "^13.2.1",
+    "@angular/cli": "^14.0.0",
+    "@angular/compiler-cli": "^14.0.1",
+    "@faker-js/faker": "^7.2.0",
+    "@types/node": "^12.11.1",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "autoprefixer": "^10.4.7",
+    "cypress": "^10.0.3",
+    "eslint": "^8.17.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.3.2",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "husky": "^8.0.1",
+    "postcss": "^8.4.14",
+    "prettier": "^2.6.2",
+    "prettier-eslint": "^15.0.1",
+    "tailwindcss": "^3.0.24",
+    "typescript": "~4.6.4"
+  }
+}
