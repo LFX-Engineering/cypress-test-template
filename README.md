@@ -24,7 +24,9 @@ git clone git@github.com:LF-Engineering/cypress-test-template.git
 cd cypress-test-template
 ```
 
-##### Install NPM dependencies
+##### Install dependencies
+
+If you're using NPM package manager, use the NPM commands for the scripts below.
 
 ```bash
 yarn install
