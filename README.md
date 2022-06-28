@@ -26,16 +26,14 @@ cd cypress-test-template
 
 ##### Install dependencies
 
-If you're using NPM package manager, use the NPM commands for the scripts below.
-
 ```bash
-yarn install
+npm install
 ```
 
 ##### Start application locally
 
 ```bash
-yarn start
+npm run start
 ```
 
 The command above will make the application available on [http://localhost:4200](http://localhost:4200)
@@ -47,11 +45,11 @@ In order to run Cypress, you will need to have [started your application](#start
 ##### Start Cypress UI
 
 ```bash
-yarn cypress:open
+npm cypress:open
 ```
 
 ##### Run Cypress CLI
 
 ```bash
-yarn cypress:run
+npm cypress:run
 ```
