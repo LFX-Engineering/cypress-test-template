@@ -43,13 +43,14 @@ The command above will make the application available on [http://localhost:4200]
 In order to run Cypress, you will need to have [started your application](#start-application-locally) and it will need to be available on [http://localhost:4200](http://localhost:4200).
 
 ##### Start Cypress UI
+In a separate terminal, run the either of the following commands.
 
 ```bash
-npm cypress:open
+npm run cypress:open
 ```
 
 ##### Run Cypress CLI
 
 ```bash
-npm cypress:run
+npm run cypress:run
 ```
